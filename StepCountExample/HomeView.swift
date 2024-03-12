@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     @EnvironmentObject var hkManager: HealthKitManager
-    @State var stepCount = 0
+    @State var stepCount = 0.0
     
     var body: some View {
         VStack {
@@ -20,6 +20,12 @@ struct HomeView: View {
             hkManager.requestForUserPermission()
         }, label: {
             Text("Request for Healthdata")
+        })
+        
+        Button(action: {
+            stepCount = hkManager.getTodaysStepCount()
+        }, label: {
+            Text("Fetch StepCount")
         })
     }
 }

@@ -12,6 +12,7 @@
 		0C85E6272BA0B6260073B3FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C85E6262BA0B6260073B3FF /* Assets.xcassets */; };
 		0C85E62A2BA0B6260073B3FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C85E6292BA0B6260073B3FF /* Preview Assets.xcassets */; };
 		0C85E6312BA0B67B0073B3FF /* HKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85E6302BA0B67B0073B3FF /* HKManager.swift */; };
+		0C85E6342BA0BA370073B3FF /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85E6332BA0BA370073B3FF /* Date+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0C85E6292BA0B6260073B3FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0C85E6302BA0B67B0073B3FF /* HKManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKManager.swift; sourceTree = "<group>"; };
 		0C85E6322BA0B6D50073B3FF /* StepCountExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StepCountExample.entitlements; sourceTree = "<group>"; };
+		0C85E6332BA0BA370073B3FF /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				0C85E6322BA0B6D50073B3FF /* StepCountExample.entitlements */,
+				0C85E6332BA0BA370073B3FF /* Date+Extensions.swift */,
 				0C85E6222BA0B6250073B3FF /* StepCountExampleApp.swift */,
 				0C85E6242BA0B6250073B3FF /* HomeView.swift */,
 				0C85E6302BA0B67B0073B3FF /* HKManager.swift */,
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C85E6252BA0B6250073B3FF /* HomeView.swift in Sources */,
+				0C85E6342BA0BA370073B3FF /* Date+Extensions.swift in Sources */,
 				0C85E6232BA0B6250073B3FF /* StepCountExampleApp.swift in Sources */,
 				0C85E6312BA0B67B0073B3FF /* HKManager.swift in Sources */,
 			);
@@ -289,6 +293,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,6 +326,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
